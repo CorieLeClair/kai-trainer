@@ -1,0 +1,52 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.71'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files('C:/Users/corie/OneDrive/Documents/Programming/projects/kotlin/kai/build/libs/kai.jar')
+    compile group: 'no.tornado', name: 'tornadofx', version: '1.7.20'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile group: 'net.sf.py4j', name: 'py4j', version: '0.10.9'
+    compile group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
+    compile group: 'org.json', name: 'json', version: '20190722'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.13.1'
+    // Align versions of all Kotlin components
+    compile group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: '5.6.0.201912101111-r'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'commons-configuration', name: 'commons-configuration', version: '1.7'
+
+    implementation platform('org.jetbrains.kotlin:kotlin-bom')
+
+    // Use the Kotlin JDK 8 standard library.
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+
+    // Use the Kotlin test library.
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+
+    // Use the Kotlin JUnit integration.
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+}
+
+javafx {
+    version = "12"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+}
+
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+mainClassName = 'kaisuite.app.MyApp'

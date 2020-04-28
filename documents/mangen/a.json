@@ -1,0 +1,222 @@
+{
+  "config": {
+    "brain_file_type": "chat_file"
+  },
+  "messages": {
+    "hows work": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "hows work",
+        "message_result_string": "i do not work",
+        "message_result_type": "Statement"
+      }
+    ],
+    "hola": [
+      {
+        "message_contain_type": "Greet",
+        "message_contain_string": "hola",
+        "message_result_string": "hola",
+        "message_result_type": "Greet",
+        "desc": "Ask001"
+      }
+    ],
+    "are you okay": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you okay",
+        "message_result_string": "yes i am okay",
+        "message_result_type": "yAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "good night": [
+      {
+        "message_contain_type": "Bye",
+        "message_contain_string": "good night",
+        "message_result_string": "goodnight, sleep well",
+        "message_result_type": "Other",
+        "desc": "Ask001"
+      }
+    ],
+    "are you doing anything this week": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you doing anything this week",
+        "message_result_string": "i am not doing anything this week",
+        "message_result_type": "nAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "sleep well": [
+      {
+        "message_contain_type": "Statement",
+        "message_contain_string": "sleep well",
+        "message_result_string": "i will try",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you angry": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you angry",
+        "message_result_string": "no i am not angry",
+        "message_result_type": "nAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "how are you": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "how are you",
+        "message_result_string": "i am good",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "goodnight": [
+      {
+        "message_contain_type": "Bye",
+        "message_contain_string": "goodnight",
+        "message_result_string": "goodnight, sleep well",
+        "message_result_type": "Other",
+        "desc": "Ask001"
+      }
+    ],
+    "hey": [
+      {
+        "message_contain_type": "Greet",
+        "message_contain_string": "hey",
+        "message_result_string": "hi",
+        "message_result_type": "Greet",
+        "desc": "Ask001"
+      }
+    ],
+    "are you doing anything.": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you doing anything.",
+        "message_result_string": "nothing, except talking to you",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you doing anything this weekend": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you doing anything this weekend",
+        "message_result_string": "i am not doing anything this weekend",
+        "message_result_type": "nAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "good morning": [
+      {
+        "message_contain_type": "Statement",
+        "message_contain_string": "good morning",
+        "message_result_string": "good morning to you as well",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you busy": [
+      {
+        "message_contain_type": "Statement",
+        "message_contain_string": "are you busy",
+        "message_result_string": "i am not busy",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you happy": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you happy",
+        "message_result_string": "yes i am happy",
+        "message_result_type": "yAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "how are you feeling": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "how are you feeling",
+        "message_result_string": "i am feeling good",
+        "message_result_type": "yAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "how is life": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "how is life",
+        "message_result_string": "life is good",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you sad": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you sad",
+        "message_result_string": "no i am not sad",
+        "message_result_type": "nAnswer",
+        "desc": "Ask001"
+      }
+    ],
+    "how have you been": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "how have you been",
+        "message_result_string": "i have been good",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "how is school": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "how is school",
+        "message_result_string": "i do not attend any schools",
+        "message_result_type": "ynQuestion",
+        "desc": "Ask001"
+      }
+    ],
+    "good afternoon": [
+      {
+        "message_contain_type": "Statement",
+        "message_contain_string": "good afternoon",
+        "message_result_string": "good afternoon to you as well",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "hello": [
+      {
+        "message_contain_type": "Greet",
+        "message_contain_string": "hello",
+        "message_result_string": "hello",
+        "message_result_type": "Greet",
+        "desc": "Ask001"
+      }
+    ],
+    "whats up": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "whats up",
+        "message_result_string": "nothing much",
+        "message_result_type": "Statement",
+        "desc": "Ask001"
+      }
+    ],
+    "are you mad": [
+      {
+        "message_contain_type": "whQuestion",
+        "message_contain_string": "are you mad",
+        "message_result_string": "no i am not mad",
+        "message_result_type": "nAnswer",
+        "desc": "Ask001"
+      }
+    ]
+  }
+}
