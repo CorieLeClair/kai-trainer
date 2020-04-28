@@ -55,6 +55,7 @@ class OpenProject : View("Open Project") {
     }
 
     private fun setupKai(){
-        KaiConfig.Kai().definePythonInterpreter(File("C:/Users/corie/OneDrive/Documents/Programming/projects/kotlin/kai/pai"))
+        val choosePythonDirectory = chooseDirectory()
+        KaiConfig.Kai().definePythonInterpreter(choosePythonDirectory as File)
     }
 }
